@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageView">
+        <attr name="rounded_edges_radius" format="dimension"/>
+        <attr name="rounded_edges_radius_top_left" format="dimension"/>
+        <attr name="rounded_edges_radius_top_right" format="dimension"/>
+        <attr name="rounded_edges_radius_bottom_left" format="dimension"/>
+        <attr name="rounded_edges_radius_bottom_right" format="dimension"/>
+
+        <attr name="edges" format="enum">
+            <enum name="rounded" value="0"/>
+            <enum name="edged" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
